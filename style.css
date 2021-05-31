@@ -1,0 +1,57 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    background-color: rgb(95, 122, 112);
+}
+
+#calculator{
+	width: 320px;
+	height: 570px;
+	background-color: #eaedef;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 50px;
+	box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 20px 19px 20px 0 rgb(0 0 0 / 19%);
+}
+#result{
+	height: 120px;
+}
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #919191;
+}
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+}
+#keyboard{
+	height: 400px;
+}
+.btn-outline-primary, .btn-outline-success, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+.btn-outline-success, .empty{
+	background-color: #eaedef;
+}
+.btn-outline-success, .btn-outline-primary{
+	cursor: pointer;
+}
+.btn-outline-primary:active, .btn-outline-success:active{
+	font-size: 13px;
+}
+.btn-outline-primary:focus, .btn-outline-success:focus, .empty:focus{
+	outline: 0;
+}
